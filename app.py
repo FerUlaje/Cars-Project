@@ -5,6 +5,7 @@ import streamlit as st
 car_data = pd.read_csv('datasets/vehicles_us.csv') # leer los datos
 
 st.header('Autos en Venta 2018-2019 USA')
+
 hist_button = st.button('Construir histograma') # crear un botón
 
 if hist_button:
